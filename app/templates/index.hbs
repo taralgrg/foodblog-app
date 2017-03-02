@@ -1,0 +1,19 @@
+<h1> Welcome to Foodie Blog!! </h1>
+
+  <p>We bring you the best of all kind of Foods.</p>
+
+<h2> Available Rentals </h2>
+
+<ul>
+  {{#each model.posts as |post|}}
+    {{post-tile post=post}}
+  {{/each}}
+</ul>
+
+{{new-post savePost2="savePost3"}}
+
+
+<hr>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click here to contact us.{{/link-to}}

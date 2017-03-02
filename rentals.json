@@ -1,0 +1,32 @@
+{ "posts": [{
+    "name": "Donut",
+    "price": "30 $",
+    "calorie": 500,
+    "type": "Junk-Food",
+    "image": "http://bosadonutsaz.com/wp-content/uploads/2015/02/pinkdonut.png"
+
+  }, {
+    "name": "Burger",
+    "price": "35 $",
+    "calorie": "400",
+    "type": "Junk-Food",
+    "image": "https://media.timeout.com/images/103483135/image.jpg"
+
+  }, {
+    "name": "Salad",
+    "price": "40 $",
+    "calorie": "100",
+    "type": "Healthy-Food",
+    "image": "https://www.wagamama.com/-/media/WagamamaMainsite/hero-pod-images/salads.jpg"
+
+  }],
+  "reviews": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down, it sucks."
+  }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the burger!"
+  }]
+}

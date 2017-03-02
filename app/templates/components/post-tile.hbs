@@ -1,0 +1,8 @@
+<li>
+  {{#link-to 'post' post.id}}{{post.owner}}'s {{post.type}} in {{post.city}} {{/link-to}}
+  {{#if isImageShowing}}
+    <p><img src={{post.image}} alt={{post.type}} {{action 'imageHide'}}></p>
+  {{else}}
+    <button {{action 'imageShow'}}>Image</button>
+  {{/if}}
+</li>
